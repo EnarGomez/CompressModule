@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C70FDA4112D8B7F5A67B943AF6D6E283 /* Pods-ArandaCompressModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046157783D1F0BD5260686AED92C3DE7 /* Pods-ArandaCompressModule-dummy.m */; };
+		F6F86E357FD9F42EF12690EE681E463F /* Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8FAE0DB5BE6E203ECD3279775A9B7 /* Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CB398F566247B741DFB4DBA518BCDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+		DFEE4F682BEAD16C66C214A326416768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046157783D1F0BD5260686AED92C3DE7 /* Pods-ArandaCompressModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArandaCompressModule-dummy.m"; sourceTree = "<group>"; };
+		0D06DEB6C51F1BF09BC56BB8C0A4F9B3 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		2977C3650EB5F9086CD7A2C8C3941FEF /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		3323EA851BDF1270E525DC71585104EB /* Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35525C7B528F5BE5143BDCFDF3D623CF /* Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37A4BE6289B2C8085B57A9834AC6E66B /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		3D3C44CA91EF6E48BF6A5E03AB98F0D6 /* Pods-ArandaCompressModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArandaCompressModule.release.xcconfig"; sourceTree = "<group>"; };
+		49E8FAE0DB5BE6E203ECD3279775A9B7 /* Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m"; sourceTree = "<group>"; };
+		56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.xcconfig"; sourceTree = "<group>"; };
+		5D2261AD666EB428E93645BA1DBF796E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		67FAB481689A92A9B1356164C9C7F614 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		68D6233E0AD5087F1139AAB048113E77 /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		6CA86EEFE1F35A84D544194A209EDF9E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		746AA7F5FDF6117642CDACC76E67CB2B /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		8006466FFC3E3040824D25ED40CF2640 /* Pods-ArandaCompressModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArandaCompressModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		864A83482052B8B9A460D325C98A170D /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57B186B52E05BBA21E8A710EE99B26E /* libPods-ArandaCompressModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArandaCompressModule.a"; path = "libPods-ArandaCompressModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECFAE8B41363EFEF73D89141F531DF9 /* libPods-ArandaCompressModule-ArandaCompressModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArandaCompressModule-ArandaCompressModuleTests.a"; path = "libPods-ArandaCompressModule-ArandaCompressModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5D48801EB1F171DFA2A0F04AF097B4 /* Pods-ArandaCompressModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArandaCompressModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB6A4A8F664BF6CFA21E5339D65B2250 /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		F38586544B07B564BD0930F02BF155C5 /* Pods-ArandaCompressModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArandaCompressModule.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8503E63120DE40125915BA029E0D80 /* Pods-ArandaCompressModule-ArandaCompressModuleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArandaCompressModule-ArandaCompressModuleTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A6A786852A0E2D5AE6110D56008E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7144E7B7FD1D9C3B66F1E176C4C2ED21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197F8DBDEC2282CB87140E5F171C60E0 /* mobile-ffmpeg-full */ = {
+			isa = PBXGroup;
+			children = (
+				9B5A4806AA5C2AE92C650230E33D8034 /* Frameworks */,
+				26B0B3A59CDDD5EC6524C08613D9BEB3 /* Support Files */,
+			);
+			name = "mobile-ffmpeg-full";
+			path = "mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		26A7D4DB57C0A36C85CF9A757BBDDF74 /* Pods-ArandaCompressModule-ArandaCompressModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				35525C7B528F5BE5143BDCFDF3D623CF /* Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.markdown */,
+				3323EA851BDF1270E525DC71585104EB /* Pods-ArandaCompressModule-ArandaCompressModuleTests-acknowledgements.plist */,
+				49E8FAE0DB5BE6E203ECD3279775A9B7 /* Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m */,
+				FF8503E63120DE40125915BA029E0D80 /* Pods-ArandaCompressModule-ArandaCompressModuleTests-frameworks.sh */,
+				6CA86EEFE1F35A84D544194A209EDF9E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.debug.xcconfig */,
+				5D2261AD666EB428E93645BA1DBF796E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.release.xcconfig */,
+			);
+			name = "Pods-ArandaCompressModule-ArandaCompressModuleTests";
+			path = "Target Support Files/Pods-ArandaCompressModule-ArandaCompressModuleTests";
+			sourceTree = "<group>";
+		};
+		26B0B3A59CDDD5EC6524C08613D9BEB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		426A24807BF9313A1B0E45FA936336F0 /* Pods-ArandaCompressModule */ = {
+			isa = PBXGroup;
+			children = (
+				8006466FFC3E3040824D25ED40CF2640 /* Pods-ArandaCompressModule-acknowledgements.markdown */,
+				BA5D48801EB1F171DFA2A0F04AF097B4 /* Pods-ArandaCompressModule-acknowledgements.plist */,
+				046157783D1F0BD5260686AED92C3DE7 /* Pods-ArandaCompressModule-dummy.m */,
+				F38586544B07B564BD0930F02BF155C5 /* Pods-ArandaCompressModule.debug.xcconfig */,
+				3D3C44CA91EF6E48BF6A5E03AB98F0D6 /* Pods-ArandaCompressModule.release.xcconfig */,
+			);
+			name = "Pods-ArandaCompressModule";
+			path = "Target Support Files/Pods-ArandaCompressModule";
+			sourceTree = "<group>";
+		};
+		47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				197F8DBDEC2282CB87140E5F171C60E0 /* mobile-ffmpeg-full */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E9AF3BE31C4FD74036964D30E6A1301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57B186B52E05BBA21E8A710EE99B26E /* libPods-ArandaCompressModule.a */,
+				AECFAE8B41363EFEF73D89141F531DF9 /* libPods-ArandaCompressModule-ArandaCompressModuleTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5A4806AA5C2AE92C650230E33D8034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A4A8F664BF6CFA21E5339D65B2250 /* libavcodec.framework */,
+				2977C3650EB5F9086CD7A2C8C3941FEF /* libavdevice.framework */,
+				37A4BE6289B2C8085B57A9834AC6E66B /* libavfilter.framework */,
+				746AA7F5FDF6117642CDACC76E67CB2B /* libavformat.framework */,
+				0D06DEB6C51F1BF09BC56BB8C0A4F9B3 /* libavutil.framework */,
+				67FAB481689A92A9B1356164C9C7F614 /* libswresample.framework */,
+				68D6233E0AD5087F1139AAB048113E77 /* libswscale.framework */,
+				864A83482052B8B9A460D325C98A170D /* mobileffmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B31D6D3ACA0772D39F5D5678913724D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				426A24807BF9313A1B0E45FA936336F0 /* Pods-ArandaCompressModule */,
+				26A7D4DB57C0A36C85CF9A757BBDDF74 /* Pods-ArandaCompressModule-ArandaCompressModuleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */,
+				7E9AF3BE31C4FD74036964D30E6A1301 /* Products */,
+				B31D6D3ACA0772D39F5D5678913724D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66FDB2A450BA040B9417464EA5446DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AF5FF145951A1FC027BE2EAB339603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D513EB03FF8A65A9BADAC9BCC9602F7A /* Pods-ArandaCompressModule-ArandaCompressModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3186B0D81A69EB3C3FC5A7D1D62EE7 /* Build configuration list for PBXNativeTarget "Pods-ArandaCompressModule-ArandaCompressModuleTests" */;
+			buildPhases = (
+				C5AF5FF145951A1FC027BE2EAB339603 /* Headers */,
+				ECCD7D1CC9F698CADE68750FCE0C3725 /* Sources */,
+				06A6A786852A0E2D5AE6110D56008E76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DFAFF79FBE68973FC15A17C6E1A340 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArandaCompressModule-ArandaCompressModuleTests";
+			productName = "Pods-ArandaCompressModule-ArandaCompressModuleTests";
+			productReference = AECFAE8B41363EFEF73D89141F531DF9 /* libPods-ArandaCompressModule-ArandaCompressModuleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F78B752CAA56E337AE7CEFF6F3DBBA3F /* Pods-ArandaCompressModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E080BD2C79D292D8E6D1C174ED3C7284 /* Build configuration list for PBXNativeTarget "Pods-ArandaCompressModule" */;
+			buildPhases = (
+				66FDB2A450BA040B9417464EA5446DB1 /* Headers */,
+				F217615C879F7CEEEB7CF2A09ACC3920 /* Sources */,
+				7144E7B7FD1D9C3B66F1E176C4C2ED21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24C0DF197DD3105E7E68EB5CF7C0973 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArandaCompressModule";
+			productName = "Pods-ArandaCompressModule";
+			productReference = A57B186B52E05BBA21E8A710EE99B26E /* libPods-ArandaCompressModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E9AF3BE31C4FD74036964D30E6A1301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */,
+				F78B752CAA56E337AE7CEFF6F3DBBA3F /* Pods-ArandaCompressModule */,
+				D513EB03FF8A65A9BADAC9BCC9602F7A /* Pods-ArandaCompressModule-ArandaCompressModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCD7D1CC9F698CADE68750FCE0C3725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F86E357FD9F42EF12690EE681E463F /* Pods-ArandaCompressModule-ArandaCompressModuleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F217615C879F7CEEEB7CF2A09ACC3920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70FDA4112D8B7F5A67B943AF6D6E283 /* Pods-ArandaCompressModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DFAFF79FBE68973FC15A17C6E1A340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = DFEE4F682BEAD16C66C214A326416768 /* PBXContainerItemProxy */;
+		};
+		C24C0DF197DD3105E7E68EB5CF7C0973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = 0CB398F566247B741DFB4DBA518BCDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103EB4AD922BADD5586A4C0FEA6DA2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276A1D98FBCFA407B8C55308F5148F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2261AD666EB428E93645BA1DBF796E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CD0CF146D93D84B047EC4AB9CC6CF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE535B94FDF5EC37E93A06C6EB7D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38586544B07B564BD0930F02BF155C5 /* Pods-ArandaCompressModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78B2FD8CB3971EEF7788F466D30381E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3C44CA91EF6E48BF6A5E03AB98F0D6 /* Pods-ArandaCompressModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A43FCA3E624B0B09F84235BF009B68DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA86EEFE1F35A84D544194A209EDF9E /* Pods-ArandaCompressModule-ArandaCompressModuleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3186B0D81A69EB3C3FC5A7D1D62EE7 /* Build configuration list for PBXNativeTarget "Pods-ArandaCompressModule-ArandaCompressModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43FCA3E624B0B09F84235BF009B68DD /* Debug */,
+				276A1D98FBCFA407B8C55308F5148F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B1698FF38E5758EA065320551C355A /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103EB4AD922BADD5586A4C0FEA6DA2B5 /* Debug */,
+				4CD0CF146D93D84B047EC4AB9CC6CF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E080BD2C79D292D8E6D1C174ED3C7284 /* Build configuration list for PBXNativeTarget "Pods-ArandaCompressModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE535B94FDF5EC37E93A06C6EB7D220 /* Debug */,
+				78B2FD8CB3971EEF7788F466D30381E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

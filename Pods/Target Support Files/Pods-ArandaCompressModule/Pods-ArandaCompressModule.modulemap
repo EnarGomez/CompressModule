@@ -1,0 +1,6 @@
+framework module Pods_ArandaCompressModule {
+  umbrella header "Pods-ArandaCompressModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
