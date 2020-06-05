@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-ArandaCompressModule-ArandaCompressModuleTests/Pods-ArandaCompressModule-ArandaCompressModuleTests-frameworks.sh
-${PODS_ROOT}/mobile-ffmpeg-full/mobileffmpeg.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libavcodec.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libavdevice.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libavfilter.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libavformat.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libavutil.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libswresample.framework
-${PODS_ROOT}/mobile-ffmpeg-full/libswscale.framework
