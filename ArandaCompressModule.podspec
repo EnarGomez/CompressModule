@@ -8,7 +8,7 @@ s.summary = "ArandaCompressModule es una librería para comprimir archivos usand
 s.requires_arc = true
 
 #Version
-s.version = "1.0.0"
+s.version = "1.0.1"
 
 #Licencia
 s.license = { :type => "MIT", :file => "LICENSE" }
