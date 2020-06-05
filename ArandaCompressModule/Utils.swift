@@ -69,9 +69,14 @@ public class Utils {
     ///   - originalFile: ruta del archivo original
     ///   - temporalFile: ruta del nuevo archivo
     ///   - commnad: configuración a ejecutar
+    ///   - rotate: indica si se debe rotar el archivo
     /// - Returns: cadena de comando a ejecutar
-    class func getCommandFor(originalFile:String, temporalFile:String, commnad: CommandType) -> String {
-        return "-i \(originalFile) \(commnad.rawValue) \(temporalFile)"
+    class func getCommandFor(originalFile:String, temporalFile:String, commnad: CommandType, rotate: RotateEnum) -> String {
+        if rotate.rawValue != RotateEnum.NONE.rawValue{
+            return "-i \(originalFile) \(commnad.rawValue) \(rotate.rawValue) \(temporalFile)"
+        }else{
+            return "-i \(originalFile) \(commnad.rawValue) \(temporalFile)"
+        }
     }
     
     class func getCommandType(fileType: FileType, quality: Quality) -> CommandType {

@@ -32,3 +32,12 @@ public enum CommandType: String {
     case AUDIO_LOW = "-b:a 8k"
     
 }
+
+public enum RotateEnum: String {
+    case COUNTER_CLOKWISE_FLIP_VERTICALLY = "-vf transpose=0"
+    case CLOCKWISE = "-vf transpose=1"
+    case COUNTER_CLOCKWISE = "-vf transpose=2"
+    case CLOKWISE_FLIP_VERTICALLY = "-vf transpose=3"
+    case COUNTER_CLOCKWISE_FOR_TWO = "-vf transpose=2,transpose=2"
+    case NONE = ""
+}

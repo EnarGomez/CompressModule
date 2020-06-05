@@ -24,7 +24,7 @@ public class ArandaCompress {
     ///   - filetype: tipo de archivo a convertir AUDIO, IMAGEN, VIDEO
     ///   - postCompleted: bloque de informacion con el resultado de la informacion
     /// - Returns: true y ruta del nuevo archivo en caso de exito
-    public func compressInBackgound(path:String, quality: Quality, filetype: FileType, postCompleted : @escaping (_ succeeded: Bool, _ msg: String, _ path: String) -> ()){
+    public func compressInBackgound(path:String, quality: Quality, filetype: FileType, rotate:RotateEnum, postCompleted : @escaping (_ succeeded: Bool, _ msg: String, _ path: String) -> ()){
         
         //obtiene el nombre del archivo desde la ruta
         let fileName = Utils.getFileName(path: path)
@@ -39,7 +39,7 @@ public class ArandaCompress {
         //print("temporaryFileName: \(temporaryFileName)")
         let commandType = Utils.getCommandType(fileType: filetype, quality: quality)
         //print("commandType: \(commandType.rawValue)")
-        let command = Utils.getCommandFor(originalFile: path, temporalFile: "\(filePath)\(temporaryFileName)", commnad: commandType)
+        let command = Utils.getCommandFor(originalFile: path, temporalFile: "\(filePath)\(temporaryFileName)", commnad: commandType, rotate: rotate)
         //print("command \(command)")
         self.executeCommand(command: command) { (success, msg) in
             if success {
